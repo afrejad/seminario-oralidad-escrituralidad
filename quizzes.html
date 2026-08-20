@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Quizzes del Seminario de Oralidad y Escrituralidad.">
+  <title>Quizzes · Seminario de Oralidad y Escrituralidad</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="kicker">Evaluación · acceso alternativo</p>
+      <h1>Quizzes</h1>
+      <p>Acceso a los cuestionarios del seminario alojados en Google Forms.</p>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Navegación principal">
+    <div class="nav-inner">
+      <a href="index.html">Inicio</a>
+      <a href="unidad-1.html">Unidad 1</a>
+      <a href="unidad-2.html">Unidad 2</a>
+      <a href="unidad-3.html">Unidad 3</a>
+      <a href="unidad-4.html">Unidad 4</a>
+      <a href="quizzes.html" aria-current="page">Quizzes</a>
+      <a href="trabajo-final.html">Trabajo final</a>
+      <a href="exposiciones.html">Exposiciones</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="notice"><strong>Importante:</strong> abra cada formulario con la cuenta de correo que utilizará para identificar su respuesta. Revise la fecha de cierre indicada por el docente.</div>
+
+    <section class="hero-card">
+      <h2>Cuestionarios disponibles</h2>
+      <p>Los enlaces pueden actualizarse en cualquier momento sin modificar el resto del sitio. En el código, sustituya únicamente el valor de <span class="code-hint">href</span> del botón correspondiente.</p>
+    </section>
+
+    <div class="quiz-list">
+      <!-- QUIZ 1.1: reemplace # por la URL de Google Forms -->
+      <article class="quiz-card">
+        <div>
+          <span class="quiz-number">Unidad 1</span>
+          <h3>Quiz 1.1</h3>
+          <p>Cuestionario de lectura correspondiente al primer bloque de la Unidad 1.</p>
+        </div>
+        <a class="button button-disabled" href="#" aria-disabled="true">Agregar enlace de Forms</a>
+      </article>
+
+      <!-- QUIZ 1.2: reemplace # por la URL de Google Forms -->
+      <article class="quiz-card">
+        <div>
+          <span class="quiz-number">Unidad 1</span>
+          <h3>Quiz 1.2</h3>
+          <p>Cuestionario de lectura correspondiente al segundo bloque de la Unidad 1.</p>
+        </div>
+        <a class="button button-disabled" href="#" aria-disabled="true">Agregar enlace de Forms</a>
+      </article>
+
+      <!-- QUIZ 1.3: reemplace # por la URL de Google Forms -->
+      <article class="quiz-card">
+        <div>
+          <span class="quiz-number">Unidad 1</span>
+          <h3>Quiz 1.3</h3>
+          <p>Lecturas de James Paul Gee y Rudy Mostacero.</p>
+        </div>
+        <a class="button button-disabled" href="#" aria-disabled="true">Agregar enlace de Forms</a>
+      </article>
+    </div>
+
+    <section class="content-card" style="margin-top:24px;">
+      <h2>Cómo añadir un nuevo quiz</h2>
+      <p>Duplique uno de los bloques <span class="code-hint">&lt;article class=&quot;quiz-card&quot;&gt;</span>, cambie el número y el texto, y pegue el enlace público de Google Forms en <span class="code-hint">href=&quot;...&quot;</span>. Quite después la clase <span class="code-hint">button-disabled</span> y el atributo <span class="code-hint">aria-disabled</span>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner"><a href="index.html">← Volver al inicio</a></div>
+  </footer>
+</body>
+</html>
